@@ -1,0 +1,126 @@
+00:01:00.023 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+00:01:00.067 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+00:01:00.069 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.069 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.070 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.071 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+00:01:00.073 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.073 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.081 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+00:01:00.098 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 17 ms.
+00:01:00.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.101 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.103 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.107 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.107 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.112 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+00:01:00.113 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+00:01:00.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+00:01:00.125 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Saurabh Singh\AppData\Local\Temp\testng-eclipse-578124322\testng-customsuite.xml
+
+00:01:00.162 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+00:01:00.844 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+00:01:00.914 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+00:01:09.262 [main] INFO  tests.LoginTestDD - ****Execution start here****
+00:01:09.992 [main] INFO  tests.LoginTestDD - ****Execution start here****
+00:01:10.503 [main] INFO  tests.LoginTestDD - ****Execution start here****
+00:01:11.508 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6cdee57: 0 ms
+00:01:11.546 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@463045fb: 38 ms
+00:01:11.612 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+00:01:11.629 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@9690008: 81 ms
+00:01:11.652 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@150fc7a7: 22 ms
+00:01:11.665 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@632cf7d3: 13 ms
+00:01:11.676 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@35f7969d: 10 ms
+00:01:11.684 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2616b618: 7 ms
+11:46:08.030 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+11:46:09.464 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+11:46:09.505 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+11:46:18.838 [main] INFO  tests.LoginTestDD - ****Execution start here****
+11:46:19.663 [main] INFO  tests.LoginTestDD - ****Execution start here****
+11:46:20.301 [main] INFO  tests.LoginTestDD - ****Execution start here****
+11:46:21.041 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+11:46:21.560 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+11:51:35.848 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+11:51:36.573 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+11:51:36.632 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+11:51:43.808 [main] INFO  tests.LoginTestDD - ****Execution start here****
+11:51:57.131 [main] INFO  tests.LoginTestDD - ******test execution completed****
+11:51:57.137 [main] INFO  tests.LoginTestDD - ****Execution start here****
+11:52:32.906 [main] INFO  tests.LoginTestDD - ******test execution completed****
+11:52:32.919 [main] INFO  tests.LoginTestDD - ****Execution start here****
+11:53:08.522 [main] INFO  tests.LoginTestDD - ******test execution completed****
+11:53:09.330 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]

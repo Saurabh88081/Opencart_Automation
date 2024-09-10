@@ -1,0 +1,843 @@
+16:24:48.896 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+16:24:48.917 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+16:24:48.920 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.921 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.923 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.924 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.925 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.926 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.932 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+16:24:48.948 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+16:24:48.951 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.952 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:24:48.953 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.954 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.954 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.955 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.957 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.958 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.958 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.959 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.961 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.961 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.961 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.961 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.963 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.964 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:24:48.965 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.966 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.966 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:24:48.966 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:24:48.980 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Saurabh Singh\AppData\Local\Temp\testng-eclipse-1792064512\testng-customsuite.xml
+
+16:24:49.013 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+16:24:50.613 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+16:24:50.661 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+16:25:03.175 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4ae8fb2a: 0 ms
+16:25:03.230 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6818fd48: 51 ms
+16:25:03.290 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+16:25:03.307 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6c07add6: 77 ms
+16:25:03.335 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5fb8dc01: 28 ms
+16:25:03.347 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6b832551: 12 ms
+16:25:03.359 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7b5ac347: 12 ms
+16:25:03.372 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6b25ef1c: 13 ms
+16:44:06.301 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+16:44:06.977 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+16:44:07.027 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+16:44:13.947 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+16:47:33.141 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+16:47:33.815 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+16:47:33.855 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+16:47:40.407 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+16:50:39.679 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+16:50:40.341 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+16:50:40.388 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+16:50:47.843 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+16:50:48.174 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+16:55:52.217 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+16:55:52.894 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+16:55:52.938 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+16:56:01.573 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:05:26.570 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:05:27.275 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:05:27.321 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:05:34.481 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:06:10.028 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:06:10.699 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:06:10.751 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:06:17.074 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+17:06:17.576 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:16:56.662 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:16:57.591 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:16:57.665 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:17:05.291 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\testng-reports.css
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\testng-reports.css
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:28:50.003 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:28:52.658 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:28:52.704 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:29:00.870 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:29:31.003 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:29:31.823 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:29:31.875 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:34:07.627 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:35:21.902 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:35:22.758 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:35:22.813 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:36:42.963 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:40:18.671 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:40:20.346 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:40:20.416 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:40:28.114 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+17:49:17.220 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+17:49:18.040 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+17:49:18.107 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+17:56:14.349 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+18:00:34.742 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+18:00:35.556 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+18:00:35.611 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+18:04:46.874 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+18:04:47.733 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+18:04:47.791 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+18:07:14.664 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+18:07:15.467 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+18:07:15.526 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+18:10:08.722 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+18:10:09.561 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+18:10:09.617 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+18:12:55.341 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+18:12:56.192 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+18:12:56.254 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+18:13:04.305 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+18:14:43.511 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+18:17:05.825 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+18:17:06.642 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+18:17:06.690 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+18:17:14.011 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+18:32:05.417 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+18:32:07.063 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+18:32:07.099 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+21:39:57.299 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+21:39:58.690 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+21:39:58.734 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+21:41:42.539 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+21:44:43.957 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+21:44:44.450 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+21:44:44.487 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+22:10:54.642 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+22:10:55.109 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+22:10:55.140 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+22:11:01.498 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+22:12:45.289 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+22:12:45.759 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+22:12:45.807 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+22:14:00.288 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+22:37:32.780 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+22:37:33.367 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+22:37:33.409 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+22:39:04.908 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+22:39:46.754 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+22:39:47.253 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+22:39:47.293 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+22:40:24.634 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+22:40:25.027 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+22:42:15.588 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+22:42:16.604 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+22:42:16.626 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+22:49:42.211 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+22:49:42.803 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+22:49:42.841 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+22:49:49.609 [main] INFO  tests.LoginTestDD - ****Execution start here****
+22:49:50.148 [main] INFO  tests.LoginTestDD - ****Execution start here****
+22:49:50.594 [main] INFO  tests.LoginTestDD - ****Execution start here****
+22:49:51.494 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:00:36.610 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:00:37.088 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:00:37.118 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:00:43.479 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:00:43.988 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:00:44.441 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:00:45.315 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:03:01.594 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:03:02.091 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:03:02.124 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:03:08.547 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:03:09.119 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:03:09.565 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:03:10.438 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:05:48.902 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:05:49.420 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:05:49.454 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:05:55.659 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:05:56.161 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:05:56.868 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:05:57.628 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\testng-reports.css
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\testng-reports.css
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:11:47.108 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:11:47.526 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:11:47.561 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:11:54.544 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:11:55.147 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:11:55.592 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:11:56.409 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:15:34.864 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:15:35.327 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:15:35.361 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:15:42.528 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:15:43.059 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:15:43.554 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:15:44.326 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:17:47.558 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+23:17:47.566 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.566 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.569 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.569 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.572 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+23:17:47.584 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+23:17:47.586 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.587 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.588 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.588 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.588 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.589 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.590 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.592 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.592 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.592 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.593 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.593 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.593 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.593 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.595 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.595 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.596 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.597 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.597 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:47.597 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:47.603 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Saurabh Singh\AppData\Local\Temp\testng-eclipse--1010977292\testng-customsuite.xml
+
+23:17:47.630 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+23:17:48.071 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:17:48.108 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:17:54.193 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:18:11.249 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:18:30.118 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:18:41.686 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@935493d: 0 ms
+23:18:41.716 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@1edfedf1: 30 ms
+23:18:41.757 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:18:41.767 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@71c0b742: 51 ms
+23:18:41.782 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@23121d14: 15 ms
+23:18:41.791 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@489110c2: 9 ms
+23:18:41.798 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@751d7425: 7 ms
+23:18:41.804 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@204d9edf: 6 ms
+23:30:24.913 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:30:25.391 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:30:25.445 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:30:34.742 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:30:35.291 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:30:35.813 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:30:36.847 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:33:02.596 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:33:03.200 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:33:03.304 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:33:11.518 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:33:12.139 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:33:12.644 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:33:13.823 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:34:20.907 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:34:21.573 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:34:21.623 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:34:39.624 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:34:40.458 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:34:41.168 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:34:41.912 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+23:34:43.258 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+23:56:12.018 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Jala\eCommerceApplicatio_OpenCart\master.xml
+
+23:56:13.794 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.84 (resolved driver for Chrome 128)
+23:56:13.836 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Saurabh Singh\.cache\selenium\chromedriver\win64\128.0.6613.84\chromedriver.exe
+23:56:28.145 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:56:29.207 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:56:29.951 [main] INFO  tests.LoginTestDD - ****Execution start here****
+23:56:31.115 [main] ERROR org.testng.reporters.jq.Main - E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: E:\Jala\eCommerceApplicatio_OpenCart\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:3160) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]

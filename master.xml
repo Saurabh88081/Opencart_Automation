@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+	<listeners>
+		<listener class-name="utils.ExtentReportManager" />
+	</listeners>
+
+
+	<test thread-count="5" name="MyTest">
+		<parameter name="os" value="windows" />
+		<parameter name="br" value="chrome" />
+		<classes>
+			<class name="tests.RegisterTest" />
+			
+		</classes>
+	</test>
+</suite>

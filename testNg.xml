@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+	<listeners>
+		<listener class-name="utils.ExtentReportManager" />
+	</listeners>
+	
+
+
+	<test thread-count="3" name="MyTest">
+		<parameter name="os" value="linux" />
+		<parameter name="br" value="firefox" />
+		<classes>
+			
+			<class name="tests.RegisterTest"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-09T16:14:20 IST" name="MyTestSuite" finished-at="2024-09-09T16:14:57 IST" duration-ms="36577">
+    <groups>
+    </groups>
+    <test started-at="2024-09-09T16:14:20 IST" name="MyTest" finished-at="2024-09-09T16:14:57 IST" duration-ms="36577">
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterTest@2f162cc0]" started-at="2024-09-09T16:14:21 IST" name="setUp" finished-at="2024-09-09T16:14:34 IST" duration-ms="13510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerTest()[pri:0, instance:tests.RegisterTest@2f162cc0]" started-at="2024-09-09T16:14:34 IST" name="registerTest" finished-at="2024-09-09T16:14:56 IST" duration-ms="22141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@2f162cc0]" started-at="2024-09-09T16:14:56 IST" name="tearDown" finished-at="2024-09-09T16:14:57 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- MyTest -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>
