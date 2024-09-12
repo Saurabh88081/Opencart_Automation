@@ -83,6 +83,12 @@
 			<artifactId>commons-email</artifactId>
 			<version>1.6.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.28</version> <!-- Use the latest version available -->
+			<scope>provided</scope>
+		</dependency>
 
 
 	</dependencies>
@@ -98,7 +104,6 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.11.0</version>
 					<configuration>
-						<fork>true</fork>
 						<compilerArgs>
 							<arg>--add-opens</arg>
 							<arg>
@@ -109,6 +114,7 @@
 						</compilerArgs>
 					</configuration>
 				</plugin>
+
 
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
