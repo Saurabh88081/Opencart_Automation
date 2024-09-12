@@ -97,6 +97,23 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.11.0</version>
+					<configuration>
+						<fork>true</fork>
+						<compilerArgs>
+							<arg>--add-opens</arg>
+							<arg>
+								jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+							<arg>--add-opens</arg>
+							<arg>
+								jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>
+						</compilerArgs>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.11.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
